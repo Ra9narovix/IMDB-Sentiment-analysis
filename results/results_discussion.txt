@@ -1,0 +1,6 @@
+Results Discussion
+- Features: TextBlob sentence-level polarity only (1D feature).
+- Model: MLP trained from scratch with manual forward pass, backprop, and gradient descent.
+- Strengths: Works when reviews have clearly positive/negative polarity.
+- Errors: Sarcasm and mixed reviews are hard when using only one polarity feature.
+- Improvement (if allowed): Hybrid (VADER + TextBlob polarity) or more features (not allowed here).

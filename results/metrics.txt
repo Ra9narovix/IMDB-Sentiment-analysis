@@ -1,0 +1,15 @@
+Test accuracy: 0.7676
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative     0.7729    0.7579    0.7653      3750
+    positive     0.7625    0.7773    0.7698      3750
+
+    accuracy                         0.7676      7500
+   macro avg     0.7677    0.7676    0.7676      7500
+weighted avg     0.7677    0.7676    0.7676      7500
+
+Confusion matrix (rows=true, cols=pred):
+[[2842  908]
+ [ 835 2915]]
